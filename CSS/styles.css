@@ -1,0 +1,108 @@
+body {
+    background-color: #0B0D17;
+}
+
+h1 {
+   font-family: 'Bellefair', serif;
+   font-size: 150px;
+   color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: 4.75px;
+    color: #D0D6F9;
+}
+
+nav {
+    font-family: 'Barlow Condensed', sans-serif;;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Barlow Condensed', sans-serif;;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    color: #D0D6F9;
+}
+
+/*------------------------------------------------------------------------------------CLASS SELECTOR-------------------------------------------------------------------------------*/
+
+.span-main-nav {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.subheading1 {
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+}
+
+.subheading2 {
+    font-family: 'Barlow Condensed', sans-serif;;
+    font-size: 16px;
+    letter-spacing: 2.35px;
+}
+
+.subheading3 {
+    font-family: 'Barlow Condensed', sans-serif;;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+}
+
+
+/*------------------------------------------------------------------------------------ID SELECTOR-------------------------------------------------------------------------------*/
+
+#main-icon {
+    margin: 10px;
+}
+#main-hr {
+    display:inline-block;
+    position:absolute;
+    width: 40%;
+    border: none;
+    border-top: solid #C4C4C4;
+    border-width: 1px;
+    margin-top: 34px;
+    margin-left: 40px;
+    
+
+}
+
+#main-nav {
+    display: inline-block;
+    position: absolute;
+    width: 80%; 
+    margin-top: 10px;
+    height: 60px;
+    backdrop-filter: blur(10px);
+    margin-left: 500px;
+}
+
+#main-options {
+    margin-top: 20px;
+    padding: 0 0 0 210px;
+}
